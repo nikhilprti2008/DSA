@@ -97,6 +97,18 @@ void heapify(int arr[], int n, int i){
     }
 }
 
+//Heap sort
+void heapsort(int arr[],int n){
+    int size = n;
+    while(size > 1){
+        //step 1 : swap
+        swap(arr[size], arr[1]);
+        size--;
+
+        //step 2: 
+        heapify(arr, size, 1);
+    }
+}
 
 
 int main(){
@@ -124,6 +136,17 @@ int main(){
     for(int i = 1; i<=n; i++){
         cout << arr[i] << " ";
     }
+
+    cout << "After sorting" << endl;
+    heapsort(arr, n);
+
+    cout <<"Printing Sorted Array "<< endl;
+    for(int i = 1; i<=n; i++){
+        cout << arr[i] <<" ";
+
+    }
+    cout << endl ;
+
    
 
 
