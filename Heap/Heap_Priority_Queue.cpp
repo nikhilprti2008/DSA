@@ -31,4 +31,18 @@ int main(){
     q.pop();
 
     cout <<q.top() << endl;
+
+
+    cout << "printing the min heap " << endl;
+    priority_queue<int, vector<int>, greater<int>> pq;
+
+    pq.push(30);
+    pq.push(40);
+    pq.push(10);
+    pq.push(5);
+
+    cout << pq.top()<< endl;
+
+    pq.pop();
+    
 }
