@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-   /* int nums = 10;
+    int nums = 10;
     int *ptr = &nums;
     cout << ptr << endl;
     cout << *ptr << endl;
@@ -13,7 +13,7 @@ int main(){
     cout << "Address of the pointer of the D : " << ptr2 <<endl;
     cout << "value  of the  d(assign to ptr2) : " << *ptr2 <<endl;*/
 
-   /* int i = 5;
+   int i = 5;
     int *ptr = &i;
 
     cout << &i << endl;
@@ -27,7 +27,7 @@ int main(){
     int *p = 0; 
     cout << *p << endl;
 
-*/
+
 
 int num = 5;
 int a = num;
